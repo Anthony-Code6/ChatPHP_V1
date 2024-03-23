@@ -1,0 +1,78 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: black;
+    background-image: url("../../img/fondo.gif");
+    background-size: cover;
+}
+
+
+.contenedor-btn-file input[type="file"] {
+    appearance: none;
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+}
+
+.contenedor-btn-file {
+    display: inline-block;
+    position: relative;
+    background-color: rgb(25, 135, 84);
+    color: rgb(33, 37, 41);
+    border: 0;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgb(25, 135, 84);
+    overflow: hidden;
+    transition: ease-out 120ms background-color;
+}
+
+.contenedor-btn-file:hover {
+    background-color: rgb(25, 135, 84);
+}
+
+.contenedor-btn-file:active {
+    background-color: rgb(25, 135, 84);
+}
+
+.contenedor-btn-file>i {
+    margin-right: 15px;
+}
+
+.contenedor-btn-file label {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.contenedor-btn-file.bordeado {
+    background-color: rgb(33, 37, 41);
+    border: 2px solid rgb(25, 135, 84);
+    color: rgb(25, 135, 84);
+}
+
+.contenedor-btn-file.bordeado:hover {
+    background-color: rgb(25, 135, 84);
+    color: rgb(33, 37, 41);
+}
+
+.image img {
+    height: 70px;
+    width: 60px;
+    margin: 0 15px;
+    border-radius: 20px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
