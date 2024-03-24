@@ -9,7 +9,7 @@ if($_SESSION['usuario']){
 
 <div class="py-5">
     <div class="row justify-content-center">
-        <div class="col-lg-4 col-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 col-sm-12">
             <?php include 'informacion.php'; ?>
         </div>
     </div>
